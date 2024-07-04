@@ -32,14 +32,15 @@
                     <img src="src/assets/Tailwind.png" alt="Logo Tailwind CSS" class="md:w-16 w-12">
                     <h1 class="font-bold md:text-2xl text-xl">Ngoding.</h1>
                 </div>
-                <ul class="menu flex gap-x-7 items-center font-bold md:static absolute top-24 z-10 left-0 md:flex-row flex-col md:bg-transparent bg-slate-100 max-md:ring-slate-400 max-md:ring-2 md:w-auto w-full">
+                <ul class="menu flex gap-x-7 items-center font-bold md:static absolute top-24 z-999 left-0 md:flex-row flex-col md:bg-transparent bg-slate-100 max-md:ring-slate-400 max-md:ring-2 md:w-auto w-full">
                     <li class="py-4 w-full text-center"><a href="" class="hover:text-teal-500   ">Home</a></li>
                     <li class="py-4 w-full text-center"><a href="" class="hover:text-teal-500 ">About</a></li>
                     <li class="py-4 w-full text-center"><a href="" class="hover:text-teal-500 ">Service</a></li>
                     <li class="py-4 w-full text-center"><a href="" class="hover:text-teal-500 ">Projects</a></li>
                     <li class="py-4 w-full text-center"><a href="" class="hover:text-teal-500 ">Contact</a></li>
                     <div class="opacity-50 md:block hidden">|</div>
-                    <img src="src/assets/icon/images-removebg-preview.png" alt="" class="w-12 h-9 md:block hidden">
+                    <i class="fa-brands fa-github text-4xl hidden cursor-pointer hover:text-teal-500"></i>
+                    <!-- <img src="src/assets/icon/images-removebg-preview.png" alt="" class="w-12 h-9 md:block hidden cursor-pointer hover:bg-teal-500"> -->
                 </ul>
                 <div class="md:hidden block">
                     <button class="hamburger hamburger--spin" type="button">
@@ -47,12 +48,139 @@
                           <span class="hamburger-inner "></span>
                         </span>
                       </button>
-                </div>
+                </div> 
             </div>
         </div>
      </nav>
      <!-- Navbar End -->
 
+     <!-- Header Start -->
+     <div class="header min-h-screen flex items-center">
+        <div class="container mx-auto px-4">
+            <div class="header-box flex lg:flex-row flex-col items-center gap-10">
+                <div class="box lg:w-1/2 lg:order-1 order-2 lg:text-left text-center">
+                    <h1 class="font-extrabold md:text-4xl mb-4 sm:text-3xl text-2xl text-slate-900">Penghijauan, Menciptakan Generasi Yang Cerah Di Masa Mendatang.</h1>
+                    <p class="mb-4 text-slate-600 md:text-base sm:text-sm text-xs max-md:mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi eligendi delectus eveniet nisi earum fugiat quisquam nemo soluta asperiores, ex accusamus commodi et nostrum! Omnis eaque iusto impedit odio tempore?</p>
+                    <button class="w-48 h-12 bg-teal-500 rounded font-bold text-white hover:text-teal-600">Tentang Kami <i class="fa-solid fa-question ml-[2px]"></i></button>
+                </div>
+                <div class="box lg:w-1/2 lg:order-2 order-1 lg:pt-0 pt-10">
+                    <img src="/src/assets/image/hero.svg" alt="andraw.co" class="xl:w-[500px] lg:w-[400px] ml-auto block md:w-[300px] sm:w-[250px] w-[200px]">
+                </div>
+            </div>
+        </div> 
+     </div>
+     <!-- Header End -->
+
+     <!-- About Start -->
+      <div class="about py-36">
+        <div class="container mx-auto px-4">
+            <div class="about-box">
+                <div class="box text-center ">
+                    <h1 class="font-extrabold text-4xl mb-8">About Us</h1>
+                    <p class="lg:w-3/4 w-full mx-auto md:text-base text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste recusandae aperiam pariatur obcaecati, facilis natus nostrum eveniet nisi? Quia sed nisi consequuntur voluptatem asperiores, dolore dolor soluta maiores consectetur quos!</p>
+                </div>
+                <div class="box pt-16">
+                    <img src="src/assets/image/about1.svg" alt="" class="md:w-[600px] w-[400px] mx-auto">
+                </div>
+            </div>
+        </div>
+      </div>
+     <!-- About End -->
+
+     <!-- Service Start -->
+      <div class="service py-36">
+        <div class="container mx-auto px-4">
+            <div class="service-box ">
+                <div class="box text-center">
+                    <h1 class="font-extrabold text-4xl mb-6">Service</h1>
+                    <p class="md:3/4 w-full mx-auto md:text-base sm:text-sm text-xs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut ipsa, debitis aperiam laborum recusandae minus eos assumenda optio neque hic?</p>
+                </div>
+                <div class="box grid md:grid-cols-2 grid-cols-1 gap-16 pt-16 items-center">
+                    <img src="src/assets/image/services.svg" alt="" class="w-[450px] md:justify-self-end justify-self-center">
+                    <div class="desc md:justify-self-start justify-self-center">
+                        <p class="flex items-center gap-4 text-xl font-bold mb-6"><i class="fa-solid fa-circle check text-4xl text-teal-600"></i>Penghematan Sumber Daya Energi</p>
+                        <p class="flex items-center gap-4 text-xl font-bold mb-6"><i class="fa-solid fa-circle check text-4xl text-teal-600"></i>Pemanfaatan Barang Barang Lama</p>
+                        <p class="flex items-center gap-4 text-xl font-bold mb-6"><i class="fa-solid fa-circle check text-4xl text-teal-600"></i>Mendaur Ulang Barang Barang Lama</p>
+                        <p class="flex items-center gap-4 text-xl font-bold mb-6"><i class="fa-solid fa-circle check text-4xl text-teal-600"></i>Penanaman Pohon atau Tanaman Terbai</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+     <!-- Service End -->
+
+     <!-- Project Start -->
+      <div class="project py-36">
+        <div class="container mx-auto px-4">
+            <div class="project-box">
+                <div class="box text-center ">
+                    <h1 class="font-extrabold text-4xl mb-6">Project</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam alias id voluptatibus ratione? Sapiente, eius.</p>
+                </div>
+                <div class="box flex items-center justify-center gap-4 flex-wrap pt-12">
+                    <div class="p-16 bg-teal-100 text-center">
+                        <h1 class="text-4xl font-bold mb-2">1000+</h1>
+                        <p>Orang Bergabung</p>
+                    </div>
+                    <div class="p-16 bg-teal-500 text-center">
+                        <h1 class="text-4xl font-bold mb-2">200+</h1>
+                        <p>Perusahaan Bekerjasama</p>
+                    </div>
+                    <div class="p-16 bg-teal-100 text-center">
+                        <h1 class="text-4xl font-bold mb-2">1500+</h1>
+                        <p>Project Terselesaikan</p>
+                    </div>
+                </div>
+                <div class="box flex justify-center items-center flex-wrap gap-4 pt-16">
+                    <img src="src/assets/image/services1.jpg" alt="" class="w-[300px] h-[250px]">
+                    <img src="src/assets/image/services2.jpg" alt="" class="w-[300px] h-[250px]">
+                    <img src="src/assets/image/services3.jpg" alt="" class="w-[300px] h-[250px]">
+                    <img src="src/assets/image/services4.jpg" alt="" class="w-[300px] h-[250px]">
+                    <img src="src/assets/image/services5.jpg" alt="" class="w-[300px] h-[250px]">
+                    <img src="src/assets/image/services6.jpg" alt="" class="w-[300px] h-[250px]">
+                </div>
+            </div>
+        </div>
+      </div>
+     <!-- Project End -->
+
+     <!-- Contact Start -->
+    <div class="contact py-36">
+        <div class="container mx-auto px-4">
+            <div class="contact-box">
+                <div class="box text-center">
+                    <h1 class="font-extrabold text-4xl mb-6">Contact</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, omnis?</p>
+                </div>
+                <form action="" class="mt-10">
+                    <table class="mx-auto lg:w-3/5 w-3/4">
+                        <tr>
+                            <td>
+                                <input type="text" name="Nama Lengkap" id="" placeholder="Nama Lengkap..." autocomplete="off" required class="w-full h-12 rounded-md border-2 p-3 hover:border-teal-500">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="email" name="Email" id="" placeholder="Email Anda..." autocomplete="off" required class="w-full h-12 rounded-md border p-3 hover:border-teal-500">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                               <textarea name="Pesan" id="" rows="10" cols="30" placeholder="Pesan..." autocomplete="off" required class="w-full rounded-md border p-3 hover:border-teal-500"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pt-10">
+                            <button class="w-40 h-10 bg-teal-500 ml-auto block font-bold rounded hover:bg-teal-600 hover:ring-4 ring-teal-200">Kirim</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+
+     <!-- Contact End -->
 
 
 
@@ -61,7 +189,7 @@
 
 
 
-
+     <!-- JS -->
      <script src="src/script.js"></script>
 
 </body>
