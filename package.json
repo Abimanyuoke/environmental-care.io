@@ -1,7 +1,7 @@
 {
 
   "scripts": {
-    "dev" : "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+    "Abim" : "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch"
   },
 
   "devDependencies": {
