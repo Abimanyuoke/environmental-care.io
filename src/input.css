@@ -24,6 +24,18 @@
         line-height: 2;
     }
 
+    .fa-circle-arrow-up.btn-active {
+        display: block;
+    }
+
+    
+    @media screen and (max-width: 1280px) {
+       
+    .fa-arrow-circle-up:before, .fa-circle-arrow-up:before {
+        display: none;
+    }
+
+
 
     @media screen and (max-width: 768px) {
         .menu {
