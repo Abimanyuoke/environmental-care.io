@@ -11,4 +11,7 @@ hamburger.addEventListener('click', () => {
 window.addEventListener('scroll', () => {
     windowPosition = window.scrollY >= 300;
     btn.classList.toggle("btn-active", windowPosition);
+
+    hamburger.classList.remove("is-active");
+    menu.classList.remove("menu-active");
 });

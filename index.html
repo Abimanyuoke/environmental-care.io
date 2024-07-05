@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enviromental Care</title>
+    <title>EnviCare</title>
     <link rel="stylesheet" href="/public/style.css">
     
 
     <!-- Favicon -->
-     <link rel="shortcut icon" href="/src/assets/icon/nm.png" type="image/x-icon">
+     <link rel="shortcut icon" href="/src/assets/Logo.png" type="image/x-icon">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,22 +22,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body id="home">
 
     <!-- Navbar Start-->
      <nav class="navbar px-4 py-3">
         <div class="container mx-auto">
             <div class="navbar-box flex items-center justify-between">
                 <div class="logo flex items-center gap-x-2">
-                    <img src="src/assets/Tailwind.png" alt="Logo Tailwind CSS" class="md:w-16 w-12">
-                    <h1 class="font-bold md:text-2xl text-xl">Ngoding.</h1>
+                    <img src="src/assets/Logo.png" alt="Logo Tailwind CSS" class="md:w-16 w-12">
+                    <h1 class="font-bold md:text-2xl text-xl">EnviCare.</h1>
                 </div>
                 <ul class="menu flex gap-x-7 items-center font-bold md:static absolute top-24 z-999 left-0 md:flex-row flex-col md:bg-transparent bg-slate-100 max-md:ring-slate-400 max-md:ring-2 md:w-auto w-full">
-                    <li class="py-4 w-full text-center"><a href="" class="hover:text-teal-500   ">Home</a></li>
-                    <li class="py-4 w-full text-center"><a href="" class="hover:text-teal-500 ">About</a></li>
-                    <li class="py-4 w-full text-center"><a href="" class="hover:text-teal-500 ">Service</a></li>
-                    <li class="py-4 w-full text-center"><a href="" class="hover:text-teal-500 ">Projects</a></li>
-                    <li class="py-4 w-full text-center"><a href="" class="hover:text-teal-500 ">Contact</a></li>
+                    <li class="py-4 w-full text-center"><a href="#home" class="hover:text-teal-500">Home</a></li>
+                    <li class="py-4 w-full text-center"><a href="#about" class="hover:text-teal-500">About</a></li>
+                    <li class="py-4 w-full text-center"><a href="#service" class="hover:text-teal-500">Service</a></li>
+                    <li class="py-4 w-full text-center"><a href="#project" class="hover:text-teal-500">Projects</a></li>
+                    <li class="py-4 w-full text-center"><a href="#contact" class="hover:text-teal-500">Contact</a></li>
                     <div class="opacity-50 md:block hidden">|</div>
                     <i class="fa-brands fa-github text-4xl hidden cursor-pointer hover:text-teal-500"></i>
                     <!-- <img src="src/assets/icon/images-removebg-preview.png" alt="" class="w-12 h-9 md:block hidden cursor-pointer hover:bg-teal-500"> -->
@@ -72,7 +72,7 @@
      <!-- Header End -->
 
      <!-- About Start -->
-      <div class="about py-36">
+      <div class="about py-36" id="about">
         <div class="container mx-auto px-4">
             <div class="about-box">
                 <div class="box text-center ">
@@ -88,7 +88,7 @@
      <!-- About End -->
 
      <!-- Service Start -->
-      <div class="service py-36">
+      <div class="service py-36" id="service">
         <div class="container mx-auto px-4">
             <div class="service-box ">
                 <div class="box text-center">
@@ -98,10 +98,10 @@
                 <div class="box grid md:grid-cols-2 grid-cols-1 gap-16 pt-16 items-center">
                     <img src="src/assets/image/services.svg" alt="" class="w-[450px] md:justify-self-end justify-self-center">
                     <div class="desc md:justify-self-start justify-self-center">
-                        <p class="flex items-center gap-4 text-xl font-bold mb-6"><i class="fa-solid fa-circle check text-4xl text-teal-600"></i>Penghematan Sumber Daya Energi</p>
-                        <p class="flex items-center gap-4 text-xl font-bold mb-6"><i class="fa-solid fa-circle check text-4xl text-teal-600"></i>Pemanfaatan Barang Barang Lama</p>
-                        <p class="flex items-center gap-4 text-xl font-bold mb-6"><i class="fa-solid fa-circle check text-4xl text-teal-600"></i>Mendaur Ulang Barang Barang Lama</p>
-                        <p class="flex items-center gap-4 text-xl font-bold mb-6"><i class="fa-solid fa-circle check text-4xl text-teal-600"></i>Penanaman Pohon atau Tanaman Terbai</p>
+                        <p class="flex items-center gap-4 text-xl font-bold mb-6"><i class="fa-solid fa-circle-check text-4xl text-teal-600"></i>Penghematan Sumber Daya Energi</p>
+                        <p class="flex items-center gap-4 text-xl font-bold mb-6"><i class="fa-solid fa-circle-check text-4xl text-teal-600"></i>Pemanfaatan Barang Barang Lama</p>
+                        <p class="flex items-center gap-4 text-xl font-bold mb-6"><i class="fa-solid fa-circle-check text-4xl text-teal-600"></i>Mendaur Ulang Barang Barang Lama</p>
+                        <p class="flex items-center gap-4 text-xl font-bold mb-6"><i class="fa-solid fa-circle-check text-4xl text-teal-600"></i>Penanaman Pohon atau Tanaman Terbai</p>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@
      <!-- Service End -->
 
      <!-- Project Start -->
-      <div class="project py-36">
+      <div class="project py-36" id="project">
         <div class="container mx-auto px-4">
             <div class="project-box">
                 <div class="box text-center ">
@@ -145,7 +145,7 @@
      <!-- Project End -->
 
      <!-- Contact Start -->
-    <div class="contact py-36">
+    <div class="contact py-36" id="contact">
         <div class="container mx-auto px-4">
             <div class="contact-box">
                 <div class="box text-center">
@@ -187,8 +187,8 @@
             <div class="footer-box flex justify-around lg:flex-row flex-col lg:gap-0 gap-10">
                 <div class="box lg:w-[500px]">
                     <div class="logo flex items-center gap-2">
-                        <img src="src/assets/Tailwind.png" alt="" class="w-16">
-                        <h1 class="font-bold text-2xl">Ngoding.</h1>
+                        <img src="src/assets/Logo.png" alt="" class="w-16">
+                        <h1 class="font-bold text-2xl">EnviCare.</h1>
                     </div>
                     <div class="desc">
                         <p class="opacity-50 text-base leading-loose">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum vero sed exercitationem odio nihil facilis quo minus consequatur eos doloribus!</p>
@@ -196,11 +196,11 @@
                 </div>
                 <div class="box flex flex-col lg:w-[100px] gap-2 ">
                     <h4 class="font-bold text-lg">Menu</h4>
-                    <a href="#" class="opacity-50 hover:opacity-100">Home</a>
-                    <a href="#" class="opacity-50 hover:opacity-100">About</a>
-                    <a href="#" class="opacity-50 hover:opacity-100">Service</a>
-                    <a href="#" class="opacity-50 hover:opacity-100">Project</a>
-                    <a href="#" class="opacity-50 hover:opacity-100">Contact</a>
+                    <a href="#home" class="opacity-50 hover:opacity-100">Home</a>
+                    <a href="#about" class="opacity-50 hover:opacity-100">About</a>
+                    <a href="#service" class="opacity-50 hover:opacity-100">Service</a>
+                    <a href="#project" class="opacity-50 hover:opacity-100">Project</a>
+                    <a href="#contact" class="opacity-50 hover:opacity-100">Contact</a>
                 </div>
                 <div class="box flex flex-col lg:w-[200px]">
                     <h4 class="font-bold text-lg">Company</h4>
@@ -215,9 +215,11 @@
      <!-- Footer End -->
 
      <!-- Button Back To Top Start-->
-      <a href="#home">
-        <i class="fa-solid fa-circle-arrow-up fixed bottom-10 right-10 text-5xl text-teal-500 cursor-pointer hover:text-teal-500" title="Kembali ke atas"></i>
-      </a>
+      <div class="arrow">
+          <a href="#home">
+            <i class="fa-solid fa-circle-arrow-up fixed bottom-10 right-10 text-5xl text-teal-500 cursor-pointer hover:text-teal-500" title="Kembali ke atas"></i>
+          </a>
+      </div>
      <!-- Button Back To Top End -->
 
 

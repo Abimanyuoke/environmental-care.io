@@ -2739,12 +2739,6 @@ video {
   display: block;
 }
 
-@media screen and (max-width: 1280px) {
-  .fa-circle-arrow-up {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .menu {
     transform: scale(0);
